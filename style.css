@@ -1,0 +1,296 @@
+/* Page styling */
+body{
+font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+background-color:#f4f4f4;
+}
+
+/* Navigation menu */
+nav ul{
+list-style:none;
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav ul li{
+display:inline;
+margin:15px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:yellow;
+}
+
+/* Headings */
+h1{
+text-align:center;
+color:#2c3e50;
+}
+
+h2{
+color:#34495e;
+margin-top:20px;
+}
+
+/* Paragraphs */
+p{
+line-height:1.6;
+}
+
+/* Images */
+img{
+max-width:100%;
+height:auto;
+display:block;
+margin:auto;
+}
+
+/* Tables */
+table{
+width:80%;
+margin:auto;
+border-collapse:collapse;
+}
+
+table, th, td{
+border:1px solid #ccc;
+padding:10px;
+text-align:center;
+}
+
+/* Forms */
+form{
+width:60%;
+margin:auto;
+}
+
+input, select{
+width:100%;
+padding:8px;
+margin:5px 0;
+}
+
+/* Buttons */
+input[type="submit"]{
+background-color:#2c3e50;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+
+input[type="submit"]:hover{
+background-color:#1a252f;
+}
+iframe{
+width:90%;
+height:450px;
+display:block;
+margin:30px auto;
+border-radius:12px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+/* Footer */
+footer{
+text-align:center;
+padding:20px;
+background:#333;
+color:white;
+margin-top:20px;
+}
+h1{
+text-align:center;
+color:#2c3e50;
+margin-top:20px;
+}
+p{
+margin-bottom:15px;
+line-height:1.6;
+}
+ul{
+background:#f4f4f4;
+padding:15px;
+border-radius:8px;
+}
+nav{
+background:#444;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+body{
+font-family:Arial, sans-serif;
+max-width:1000px;
+margin:auto;
+}
+h2{
+margin-top:25px;
+color:#333;
+}
+footer{
+background:#1e3a8a;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+.gallery{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.gallery img{
+width:300px;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+transition:transform 0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+th{
+background:#1e3a8a;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+}
+
+tr:nth-child(even){
+background:#f2f2f2;
+}
+body{
+font-family:Arial, sans-serif;
+background:#f5f7fb;
+margin:auto;
+max-width:1000px;
+}
+nav{
+background:#1e3a8a;
+padding:12px;
+text-align:center;
+}
+<h2>Event Highlights</h2>
+
+<img src="rally1.jpg" alt="Rally riders" width="300">
+<img src="rally2.jpg" alt="Mountain race" width="300">
+<img src="rally3.jpg" alt="Motorcycle competition" width="300">
+/* General Page Style */
+body{
+background:#f4f4f4;
+font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+}
+
+/* Main Title */
+h1{
+text-align:center;
+color:#5a3d2b;
+font-size:40px;
+margin-top:20px;
+margin-bottom:10px;
+}
+
+/* Navigation Bar */
+nav{
+text-align:center;
+background:linear-gradient(to right,#6a4c3b,#c89b3c);
+padding:12px;
+border-radius:8px;
+margin:20px auto;
+width:85%;
+}
+
+/* Navigation Links */
+nav a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-weight:bold;
+font-size:16px;
+}
+
+/* Hover Effect */
+nav a:hover{
+color:#ffd700;
+}
+
+/* Tagline Style */
+.tagline{
+text-align:center;
+font-style:italic;
+color:#666;
+margin-bottom:20px;
+}
+
+/* Paragraph Centering */
+p{
+text-align:center;
+}
+
+/* Image Styling */
+img{
+display:block;
+margin:auto;
+width:65%;
+border-radius:12px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Footer Style */
+footer{
+text-align:center;
+background:#333;
+color:white;
+padding:15px;
+margin-top:40px;
+}
+.social-links{
+text-align:center;
+margin-top:20px;
+}
+
+.social-links a{
+display:inline-block;
+margin:10px;
+font-weight:bold;
+color:#6a4c3b;
+text-decoration:none;
+}
+
+.social-links a:hover{
+color:#c89b3c;
+}
